@@ -11,6 +11,9 @@ int fatorial(int n){
     else return n * fatorial(n-1);
 }
 int main(){
-    printf("%d\n", fatorial(3));
+    int num;
+    printf("Digite um numero para ser fatorado: ");
+    scanf("%d",&num);
+    printf("%d\n", fatorial(num));
     
 }
