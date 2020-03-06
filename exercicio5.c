@@ -6,7 +6,6 @@ Exercicio 5
  Altere o exercício 4 escrevendo uma função que garante que dois valores digitados pelo usuário são diferentes.
 */
 #include<stdio.h>
-//int acha_maior (int a, int b){
 int acha_maior (){    
     int a, b;
     printf("Digite o primeiro numero: ");
@@ -17,11 +16,7 @@ int acha_maior (){
     else return a > b ? a : b;
 }
 int main (){
-    /*int x=0, y;
-    printf("Digite o primeiro numero: ");
-    scanf ("%d", &x);
-    printf("Digite o segundo numero: ");
-    scanf ("%d", &y);*/
+
     int r = acha_maior ();
     printf ("Maior: %d\n", r);
     return 0;
