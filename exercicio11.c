@@ -32,5 +32,5 @@ int mun[tamanhoVetor];
     }
     inverteVetor(num,mun,tamanhoVetor);
 
-    
+return 0;
 }

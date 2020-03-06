@@ -15,5 +15,5 @@ int main(){
     printf("Digite um numero para ser fatorado: ");
     scanf("%d",&num);
     printf("%d\n", fatorial(num));
-    
+return 0;
 }
